@@ -1,0 +1,31 @@
+@model GestorDeContactos.Models.UpdateContactoViewModel
+
+@{
+    ViewData["Title"] = "View";
+}
+
+<h1>Editar Contacto</h1>
+<form action="View" method="post">
+    <div class="mb-3">
+        <label for="" class="form-label">Id</label>
+        <input type="text" class="form-control mb-3" placeholder="Jonh" asp-for="Id" readonly>
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Nome</label>
+        <input type="text" class="form-control mb-3" placeholder="Jonh" asp-for="Nome">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Apelido</label>
+        <input type="text" class="form-control mb-3" placeholder="Doe" asp-for="Apelido">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Email</label>
+        <input type="email" class="form-control mb-3" placeholder="jonhdoe@example.com" asp-for="Email">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Telefone</label>
+        <input type="text" class="form-control mb-3" placeholder="+258 842074393" asp-for="Telefone">
+    </div>
+    <button type="submit" class="btn btn-primary">Adicionar</button>
+    <button type="submit" class="btn btn-danger" asp-action="Delete" asp-controller="Contacto">Apagar</button>
+</form>
