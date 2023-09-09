@@ -24,3 +24,13 @@ This is a sample project of a contact management application developed in ASP.NE
        "DefaultConnection": "YourConnectionStringHere"
    }
 
+4. Open the project in your development environment (Visual Studio or Visual Studio Code).
+
+5. Open the NuGet Package Manager console and run the migration to create the database:
+   ```shell
+   dotnet ef database update
+
+6. Launch the application:
+   ```shell
+   dotnet run
+
