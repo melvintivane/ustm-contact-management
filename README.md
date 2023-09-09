@@ -18,4 +18,9 @@ This is a sample project of a contact management application developed in ASP.NE
    ```shell
    cd gestor-de-contatos-mvc
 
+3. Configure the database connection string in the appsettings.json file:
+   ```shell
+   "ConnectionStrings": {
+       "DefaultConnection": "YourConnectionStringHere"
+   }
 
