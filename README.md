@@ -46,4 +46,4 @@ On the preview page, you can edit the information or delete the contact.
 Feel free to contribute improvements, bug fixes or additional features. Open an issue or submit a pull request with your changes.
 
 ## License
-This project is licensed under the MIT [License.](https://www.teste.com) See the LICENSE file for details.
+This project is licensed under the MIT [License.]([https://www.teste.com](https://github.com/melvintivane/ustm-contact-management/blob/main/LICENSE)https://github.com/melvintivane/ustm-contact-management/blob/main/LICENSE) See the LICENSE file for details.
