@@ -13,3 +13,9 @@ This is a sample project of a contact management application developed in ASP.NE
 
    ```shell
    git clone https://github.com/seu-usuario/gestor-de-contatos-mvc.git
+
+2. Navigate to the project directory:
+   ```shell
+   cd gestor-de-contatos-mvc
+
+
